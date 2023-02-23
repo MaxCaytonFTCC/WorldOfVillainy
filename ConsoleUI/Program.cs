@@ -21,7 +21,7 @@ namespace ConsoleUI
             // Weapons
             string weapon1 = "Initiate's Waraxe"; // Warrior Weapon
             string weapon2 = "Novice's Bone Splinter"; // Necromancer Weapon
-            string weapon3 = "Theif's Rusty Knives"; // Rogue Weapon
+            string weapon3 = "Thief's Rusty Knives"; // Rogue Weapon
             string weapon4 = "Flameseer's Flickering Wartorch"; // Firelord Weapon
 
             // Potions
@@ -44,9 +44,9 @@ namespace ConsoleUI
             string mob2 = "Necrotic Understudy";
             string mob3 = "Crazed Knife Juggler";
             string mob4 = "Angry Campfire";
-            string mob5 = "Instructor Funbane";
+            string mob5 = "Commander Funbane";
 
-            Console.WriteLine(room1);
+            Console.WriteLine(room5);
             Console.ReadKey();
         }
     }
