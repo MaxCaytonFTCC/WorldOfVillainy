@@ -6,6 +6,7 @@
 */
 
 using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -18,41 +19,48 @@ namespace ConsoleUI
 
         static void Main(string[] args)
         {
+
+            // Read Variable Values From .txt File
+            StreamReader inputFile;
+
+            inputFile = File.OpenText("gamedata.txt");
+
             // Rooms
-            string room1 = "Cave of Awakening"; // Where the player "spawns" and selects their race
-            string room2 = "Chasm of Warpaths"; // Where the player learns about and selects their class
-            string room3 = "Armory"; // Where starter gear is collected
-            string room4 = "Marrowbrew Co. Brewing Tent"; // Where starter potions can be bought from skeletons
-            string room5 = "The \"Proving Pit\""; // Where combat is taught to the player
+            string room1 = inputFile.ReadLine();
+            string room2 = inputFile.ReadLine();
+            string room3 = inputFile.ReadLine();
+            string room4 = inputFile.ReadLine();
+            string room5 = inputFile.ReadLine();
 
             // Weapons
-            string weapon1 = "Initiate's Waraxe"; // Warrior Weapon
-            string weapon2 = "Novice's Bone Splinter"; // Necromancer Weapon
-            string weapon3 = "Thief's Rusty Knives"; // Rogue Weapon
-            string weapon4 = "Flameseer's Flickering Wartorch"; // Firelord Weapon
+            string weapon1 = inputFile.ReadLine();
+            string weapon2 = inputFile.ReadLine();
+            string weapon3 = inputFile.ReadLine();
+            string weapon4 = inputFile.ReadLine();
 
             // Potions
-            string potion1 = "Volatile Vial of Vicious Villainy"; // Damage Increase Potion
-            string potion2 = "Disgusting Draught of Dauntless Defense"; // Defense Potion
+            string potion1 = inputFile.ReadLine();
+            string potion2 = inputFile.ReadLine();
 
             // Treasures
-            string treasure1 = "Gold Lockbox";
-            string treasure2 = "Suspiciously Shiny Ruby Bell";
-            string treasure3 = "Fresh Blood Coinpurse";
+            string treasure1 = inputFile.ReadLine();
+            string treasure2 = inputFile.ReadLine();
+            string treasure3 = inputFile.ReadLine();
 
             // Items
-            string item1 = "Armor Pack";
-            string item2 = "Marrowbrew Co. Business Card";
-            string item3 = "Less-Than-Stellar War Rations";
-            string item4 = "Warp Gem";
+            string item1 = inputFile.ReadLine();
+            string item2 = inputFile.ReadLine();
+            string item3 = inputFile.ReadLine();
+            string item4 = inputFile.ReadLine();
 
             // Mobs
-            string mob1 = "Overconfident Sword-Swinger";
-            string mob2 = "Necrotic Understudy";
-            string mob3 = "Crazed Knife Juggler";
-            string mob4 = "Angry Campfire";
-            string mob5 = "Commander Funbane";
+            string mob1 = inputFile.ReadLine();
+            string mob2 = inputFile.ReadLine();
+            string mob3 = inputFile.ReadLine();
+            string mob4 = inputFile.ReadLine();
+            string mob5 = inputFile.ReadLine();
 
+            inputFile.Close();
 
             // Menu
                 string menuChoice;
@@ -89,8 +97,9 @@ namespace ConsoleUI
                         Console.WriteLine(room5);
 
                         break;
-
+   
                     case "2":
+                     
                     case "weapons":
 
                         Console.WriteLine(weapon1);
@@ -137,7 +146,7 @@ namespace ConsoleUI
                         Console.WriteLine(mob5);
 
                         break;
-
+                       
                     default:
                         Console.WriteLine("\nThanks for playing! (Press any key to exit)");
                         keepGoing = 'n';
