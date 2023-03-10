@@ -1,5 +1,5 @@
 ﻿/**
-* 2/23/2023
+* 3/9/2023
 * CSC 153
 * Max Cayton
 * This program provides a menu that displays content from the game World of Villainy.
@@ -27,16 +27,25 @@ namespace ConsoleUI
 
             // Rooms
             string room1 = inputFile.ReadLine();
+            string room1Desc = inputFile.ReadLine();
             string room2 = inputFile.ReadLine();
+            string room2Desc = inputFile.ReadLine();
             string room3 = inputFile.ReadLine();
+            string room3Desc = inputFile.ReadLine();
             string room4 = inputFile.ReadLine();
+            string room4Desc = inputFile.ReadLine();
             string room5 = inputFile.ReadLine();
+            string room5Desc = inputFile.ReadLine();
 
             // Weapons
             string weapon1 = inputFile.ReadLine();
+            string weapon1Desc = inputFile.ReadLine();
             string weapon2 = inputFile.ReadLine();
+            string weapon2Desc = inputFile.ReadLine();
             string weapon3 = inputFile.ReadLine();
+            string weapon3Desc = inputFile.ReadLine();
             string weapon4 = inputFile.ReadLine();
+            string weapon4Desc = inputFile.ReadLine();
 
             // Potions
             string potion1 = inputFile.ReadLine();
@@ -55,17 +64,22 @@ namespace ConsoleUI
 
             // Mobs
             string mob1 = inputFile.ReadLine();
+            string mob1Desc = inputFile.ReadLine();
             string mob2 = inputFile.ReadLine();
+            string mob2Desc = inputFile.ReadLine();
             string mob3 = inputFile.ReadLine();
+            string mob3Desc = inputFile.ReadLine();
             string mob4 = inputFile.ReadLine();
+            string mob4Desc = inputFile.ReadLine();
             string mob5 = inputFile.ReadLine();
+            string mob5Desc = inputFile.ReadLine();
 
             inputFile.Close();
 
             // Menu
-                string menuChoice;
+            string menuChoice;
             // Menu Loop
-                char keepGoing = 'y';
+            char keepGoing = 'y';
 
             while (keepGoing == 'y')
             {
@@ -91,21 +105,30 @@ namespace ConsoleUI
                     case "rooms":
 
                         Console.WriteLine(room1);
+                        Console.WriteLine(room1Desc + "\n");
                         Console.WriteLine(room2);
+                        Console.WriteLine(room2Desc + "\n");
                         Console.WriteLine(room3);
+                        Console.WriteLine(room3Desc + "\n");
                         Console.WriteLine(room4);
+                        Console.WriteLine(room4Desc + "\n");
                         Console.WriteLine(room5);
+                        Console.WriteLine(room5Desc + "\n");
 
                         break;
-   
+
                     case "2":
-                     
+
                     case "weapons":
 
                         Console.WriteLine(weapon1);
+                        Console.WriteLine(weapon1Desc + "\n");
                         Console.WriteLine(weapon2);
+                        Console.WriteLine(weapon2Desc + "\n");
                         Console.WriteLine(weapon3);
+                        Console.WriteLine(weapon3Desc + "\n");
                         Console.WriteLine(weapon4);
+                        Console.WriteLine(weapon4Desc + "\n");
 
                         break;
 
@@ -140,13 +163,18 @@ namespace ConsoleUI
                     case "mobs":
 
                         Console.WriteLine(mob1);
+                        Console.WriteLine(mob1Desc + "\n");
                         Console.WriteLine(mob2);
+                        Console.WriteLine(mob2Desc + "\n");
                         Console.WriteLine(mob3);
+                        Console.WriteLine(mob3Desc + "\n");
                         Console.WriteLine(mob4);
+                        Console.WriteLine(mob4Desc + "\n");
                         Console.WriteLine(mob5);
+                        Console.WriteLine(mob5Desc + "\n");
 
                         break;
-                       
+
                     default:
                         Console.WriteLine("\nThanks for playing! (Press any key to exit)");
                         keepGoing = 'n';
