@@ -1,0 +1,37 @@
+Cave of Awakening
+A dark, damp cavern with a small pool of murky water.
+Chasm of Warpaths
+A long ominous tunnel that leads into other tunnels that are marked with emblems.
+Armory
+A warm cavern that echoes the clanking of anvils.
+Marrowbrew Co. Brewing Tent
+A dark green and purple-striped tent with two amiable skeletons inside.
+The "Proving Pit"
+A deep pit where new recruits prove themselves in combat.
+Initiate's Waraxe
+A heavy, battle-worn, double-bladed axe.
+Novice's Bone Splinter
+A skeleton's disembodied index finger, imbued with magic and usable as a wand.
+Thief's Rusty Knives
+A set of knives that have seen better days.
+Flameseer's Flickering Wartorch
+An ancient weapon of elemental lords, bereft of all but a spark.
+Volatile Vial of Vicious Villainy
+Disgusting Draught of Dauntless Defense
+Gold Lockbox
+Suspiciously Shiny Ruby Bell
+Fresh Blood Coinpurse
+Armor Pack
+Marrowbrew Co. Business Card
+Less-Than-Stellar War Rations
+Warp Gem
+Overconfident Sword-Swinger
+An arrogant fool who thinks they're invincible.
+Necrotic Understudy
+A skeleton who should've paid more attention in class.
+Crazed Knife Juggler
+Someone who likes knives way too much.
+Angry Campfire
+An elemental who feels insulted when used to make smores.
+Commander Funbane
+He who breaks those who aren't worthy of Villainhood.
