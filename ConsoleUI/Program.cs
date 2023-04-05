@@ -1,5 +1,5 @@
 ﻿/**
-* 4/4/2023
+* 4/5/2023
 * CSC 153
 * Max Cayton
 * This program provides a menu that displays content from the game World of Villainy.
@@ -24,7 +24,7 @@ namespace ConsoleUI
 
             while (keepGoing == 'y')
             {
-                GameMenu.DisplayMenu();
+                DisplayRequested.DisplayMenu();
 
                 // Get Input
                 menuChoice = Console.ReadLine();
@@ -35,42 +35,48 @@ namespace ConsoleUI
                     case "1":
                     case "rooms":
 
-                        GameMenu.DisplayRooms();
+                        LoadGame.LoadRooms();
+                        DisplayRequested.DisplayRooms();
 
                         break;
 
                     case "2":
                     case "weapons":
 
-                        GameMenu.DisplayWeapons();
+                        LoadGame.LoadWeapons();
+                        DisplayRequested.DisplayWeapons();
 
                         break;
 
                     case "3":
                     case "potions":
 
-                        GameMenu.DisplayPotions();
+                        LoadGame.LoadPotions();
+                        DisplayRequested.DisplayPotions();
 
                         break;
 
                     case "4":
                     case "treasure":
 
-                        GameMenu.DisplayTreasure();
+                        LoadGame.LoadTreasure();
+                        DisplayRequested.DisplayTreasure();
 
                         break;
 
                     case "5":
                     case "items":
 
-                        GameMenu.DisplayItems();
+                        LoadGame.LoadItems();
+                        DisplayRequested.DisplayItems();
 
                         break;
 
                     case "6":
                     case "mobs":
 
-                        GameMenu.DisplayMobs();
+                        LoadGame.LoadMobs();
+                        DisplayRequested.DisplayMobs();
 
                         break;
 
