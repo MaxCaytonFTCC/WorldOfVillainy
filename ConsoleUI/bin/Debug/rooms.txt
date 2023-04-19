@@ -1,10 +1,5 @@
 Cave of Awakening
-A dark, damp cavern with a small pool of murky water.
 Chasm of Warpaths
-A long ominous tunnel that leads into other tunnels that are marked with emblems.
 Armory
-A warm cavern that echoes the clanking of anvils.
 Marrowbrew Co. Brewing Tent
-A dark green and purple-striped tent with two amiable skeletons inside.
 The "Proving Pit"
-A deep pit where new recruits prove themselves in combat.

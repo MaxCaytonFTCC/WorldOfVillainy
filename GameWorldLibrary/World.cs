@@ -10,25 +10,25 @@ namespace GameWorldLibrary
     {
 
         // Rooms
-        public static string room1, room2, room3, room4, room5;
-        public static string room1Desc, room2Desc, room3Desc, room4Desc, room5Desc;
+        public static string[] rooms = new string[5];
+        public static string[] roomDescs = new string[5];
 
         // Weapons
-        public static string weapon1, weapon2, weapon3, weapon4;
-        public static string weapon1Desc, weapon2Desc, weapon3Desc, weapon4Desc;
+        public static string[] weapons = new string[4];
+        public static string[] weaponDescs = new string[4];
 
         // Potions
-        public static string potion1, potion2;
+        public static string[] potions = new string[2];
 
         // Treasures
-        public static string treasure1, treasure2, treasure3;
+        public static string[] treasures = new string[3];
 
         // Items
-        public static string item1, item2, item3, item4;
+        public static List<string> items = new List<string>();
 
         // Mobs
-        public static string mob1, mob2, mob3, mob4, mob5;
-        public static string mob1Desc, mob2Desc, mob3Desc, mob4Desc, mob5Desc;
+        public static List<string> mobs = new List<string>();
+        public static List<string> mobDescs = new List<string>();
 
     }
 }
