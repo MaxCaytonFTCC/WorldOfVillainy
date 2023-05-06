@@ -1,0 +1,12 @@
+C:\Users\super\OneDrive\Desktop\WorldOfVillainy\GameWorldLibrary\bin\Debug\GameWorldLibrary.dll
+C:\Users\super\OneDrive\Desktop\WorldOfVillainy\GameWorldLibrary\bin\Debug\GameWorldLibrary.pdb
+C:\Users\super\OneDrive\Desktop\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive\Desktop\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Desktop\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.dll
+C:\Users\super\OneDrive\Desktop\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.pdb
+C:\Users\super\OneDrive\Desktop\C# College Work\WorldOfVillainy\GameWorldLibrary\bin\Debug\GameWorldLibrary.dll
+C:\Users\super\OneDrive\Desktop\C# College Work\WorldOfVillainy\GameWorldLibrary\bin\Debug\GameWorldLibrary.pdb
+C:\Users\super\OneDrive\Desktop\C# College Work\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.csproj.AssemblyReference.cache
+C:\Users\super\OneDrive\Desktop\C# College Work\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.csproj.CoreCompileInputs.cache
+C:\Users\super\OneDrive\Desktop\C# College Work\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.dll
+C:\Users\super\OneDrive\Desktop\C# College Work\WorldOfVillainy\GameWorldLibrary\obj\Debug\GameWorldLibrary.pdb
